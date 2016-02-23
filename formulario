@@ -1,0 +1,235 @@
+Enter file contents here<html>
+
+
+<head>
+   <title>
+     Formulario
+   </title>
+ </head>
+</html>
+  <body>
+    <div id="header">
+
+      <font face="Algerian"><font size="6"><h1><center><b>Formulario de registro</h1><br/></b></font></font>
+
+ <body>
+  <form>
+  <label>
+  Nombre
+  </label><br/>
+ <input type="text name="usuario"/>
+ <br/>
+ <br/>
+<label>
+  Apellido Paterno
+  </label><br/>
+ <input type="text name="usuario"/>
+<br/>
+<br/>
+<label>
+  Apellido Materno
+  </label><br/>
+ <input type="text name="usuario"/>
+<br/>
+<br/>
+  <label>
+  Edad
+  </label>
+<select>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+</select>
+<br/>
+<br/>
+<label>
+  Sexo
+</label>
+<br/>
+<input type="radio"
+name="Sexo"
+id="M"/>
+<label for="M">
+Masculino
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Sexo"
+id="F"/>
+<label for="F">
+Femenino
+</label>
+<br/>
+<br/>
+<label>
+  Nacionalidad
+  </label>
+<select>
+<option>Mexicana</option>
+<option>Estadounidense</option>
+<option>Alemana</option>
+<option>Inglesa</option>
+<option>Brasileña</option>
+<option>Argentina</option>
+<option>Colombiana</option>
+<option>Ecuatoriana</option>
+<option>Salvadoreña</option>
+<option>Hondureña</option>
+<option>Costaricense</option>
+</select>
+<br/>
+<br/>
+<label>
+  Telefono
+  </label><br/>
+ <input type="text name="usuario"/>
+<br/>
+<br/>
+<label>
+  email
+  </label><br/>
+ <input type="text name="usuario"/>
+<br/>
+<br/>
+<label>
+  Domicilio
+  </label><br/>
+ <input type="text name="usuario"/>
+<br/>
+<br/>
+<label>
+  Intereses
+</label><br/><br/>
+<input type="checkbox"
+name="Intereses"
+id="M"/>
+<label for="M">
+Musica
+</label>
+<br/>
+<br/>
+<input type="checkbox"
+name="Intereses"
+id="TV"/>
+<label for="TV">
+TV
+</label>
+<br/>
+<br/>
+<input type="checkbox"
+name="Intereses"
+id="L"/>
+<label for="L">
+Libros
+</label>
+<br/>
+<br/>
+<input type="checkbox"
+name="Intereses"
+id="D"/>
+<label for="D">
+Deportes
+</label>
+<br/>
+<br/>
+<input type="checkbox"
+name="Intereses"
+id="T"/>
+<label for="T">
+Tecnologia
+</label>
+<br/>
+<br/>
+<label>
+  Ultimo grado de estudios
+</label><br/><br/>
+<input type="radio"
+name="Estudios"
+id="N"/>
+<label for="N">
+Ninguno
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Estudios"
+id="P"/>
+<label for="P">
+Primaria
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Estudios"
+id="S"/>
+<label for="S">
+Secundaria
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Estudios"
+id="B"/>
+<label for="B">
+Bachillerato
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Estudios"
+id="L"/>
+<label for="L">
+Licenciatura
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Estudios"
+id="M"/>
+<label for="M">
+Maestría
+</label>
+<br/>
+<br/>
+<input type="radio"
+name="Estudios"
+id="D"/>
+<label for="D">
+Doctorado
+</label>
+<br/>
+<br/>
+<label>Observaciones</label><br/>
+<textarea name="Observacion"
+rows="25"
+columns="35">
+</textarea>
+<br/>
+<br/>
+<label>Dudas</label><br/>
+<textarea name="Duda"
+rows="25"
+columns="35">
+</textarea>
+<br/>
+<br/>
+<input type="reset"
+name="cancelar"
+value="Cancelar"/>
+<input type="submit"
+name="enviar"
+value="Enviar"/>
+
+</form>
+</body>
+</html>
+
